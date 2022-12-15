@@ -1,8 +1,20 @@
 nav{
+    padding: 15px;
+    top:0;
     display: flex;
     justify-content: space-between;
-    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    background-attachment: fixed;
+    z-index:1;
+    background-color: white;
+    position: sticky;
+    width: 100%;
+    /* box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px; */
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+   
+    
+
 }
+
 img{
     width: 25%;
     padding-bottom: 50px;
@@ -105,7 +117,7 @@ nav>.itm>ul>li:hover::after{
     font-size: xx-large;
 }
 .itm>ul>li:hover{
-    color: rgb(22, 124, 124);
+    color: rgb(222, 69, 55);
 }
 .home1{
     display: grid;
@@ -187,4 +199,183 @@ video{
     width: 70%;
     margin: auto;
     margin-left: 250px;
+}
+.container{
+    max-width:100%;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.footer{
+    padding: 70px 0;
+    background-color: rgb(202, 158, 12);
+}
+.footer-col{
+    width: 18%;
+    padding: 0 15px;
+
+}
+.footer-col h4{
+    font-size: 18px;
+    color: rgb(14, 14, 14);
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+    margin-left: 40px;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50%;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: rgb(11, 10, 10);
+    text-decoration: none;
+    font-weight: 300;
+    color: rgba(23, 21, 21, 0.733);
+    display:block;
+    transition: 0.3s ease;
+
+
+}
+.footer-col ul li a:hover{
+    color: #100f0f;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: egba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #191717;
+    transition: all 0.5s ease;
+
+
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #7a1b1b;
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .9s;
+
+}
+.disclaimer{
+    background-color: rgb(237, 240, 243);
+}
+.disclaimer h5,.disclaimer p{
+    margin-left: 30px;
+}
+.search input{
+    margin-top: 50px;
+    height: 30px;
+    border-radius: 15px;
+    padding-left: 10px;
+    font-style: italic;
+    font-weight: 800;
+}
+.social{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.social>img{
+    width: 100%;
+}
+.social>div{
+    display: flex;
+}
+.social h4,.social p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+}
+.h1{
+    padding-left: 160px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    
+   
+}
+/* .social p{
+   padding-bottom: 100px;
+} */
+/* .sub-itm-1{
+    display: none;
+}
+.itm>ul>li>a:hover{
+    display: block;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: -300px;
+} */
+
+.last-footer{
+    display: flex;
+    flex-flow:wrap column ;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 16/10;
+    gap: 25px;
+    background: #f6f6f4;
+}
+.btn{
+    position: relative;
+    width: 325px;
+    height: 100px;
+    border: none;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.btn .btn-effect{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 325px;
+    height: 100px;
+}
+.btn .btn-effect:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 225px;
+    height: 100px;
+    background: linear-gradient(135 deg,#99D98C,#76C893);
+}
+.btn .btn-effect:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(135 deg,#76C893,#52B69A);
+    transition: .5s;
+
+}
+.btn:hover .btn-effect:after{
+    width: 100%;
 }
