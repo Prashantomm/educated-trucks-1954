@@ -1,3 +1,6 @@
+
+
+
 nav{
     padding: 15px;
     top:0;
@@ -22,6 +25,7 @@ img{
 .logo{
     display: flex;
     margin-left: 100px;
+    margin-top: 20px;
 }
 ul li{
     display: inline;
@@ -31,24 +35,25 @@ ul li{
 }
 .itm{
     width: 40%;
-    margin-top: 45px;
+    margin-top: 20px;
 }
 ul li:hover{
     cursor: pointer;
 
 }
-span{
-    margin-top: 40px;
+.logo span{
+    margin-bottom: 50px;
     
    
 }
 .sign>ul{
-    margin-top: 45px;
+    margin-top: 20px;
     margin-right: 20px;
 }
-span>h1{
+.logo span>h1{
     position: relative;
     color: #838489;
+    font-family: 'Kaushan Script', cursive;
     /* -webkit-text-stroke: 0.3vw  #383d52 ;  */
      /* text-transform: uppercase; */
 }
@@ -77,10 +82,18 @@ span>h1:before{
         width:100%;
     }
 }
+.contact{
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+}
+.contact p{
+    padding-bottom: 5px;
+}
 .sign>ul>.btn>a>button{
     height:40px;
     width: 80px;
-    
+    margin-top: 10px;
     text-align: center;
     font-size: large;
     border-radius: 20px;
@@ -213,7 +226,7 @@ ul{
 }
 .footer{
     padding: 70px 0;
-    background-color: rgb(202, 158, 12);
+    background-color: #E7B75F;
 }
 .footer-col{
     width: 18%;
@@ -286,8 +299,17 @@ ul{
 .disclaimer h5,.disclaimer p{
     margin-left: 30px;
 }
+.disclaimer h5{
+    padding-top: 50px;
+}
+.disclaimer p{
+    margin: 0;
+    padding: 0;
+    padding-bottom: 5px;
+    margin-left: 30pxS;
+}
 .search input{
-    margin-top: 50px;
+    margin-top: 30px;
     height: 30px;
     border-radius: 15px;
     padding-left: 10px;
@@ -332,7 +354,7 @@ ul{
     margin-left: -300px;
 } */
 
-.last-footer{
+/* .last-footer{
     display: flex;
     flex-flow:wrap column ;
     justify-content: center;
@@ -378,4 +400,7 @@ ul{
 }
 .btn:hover .btn-effect:after{
     width: 100%;
+} */
+.sub-itm-1{
+    padding-top: 15px;
 }
