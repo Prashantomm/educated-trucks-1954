@@ -1,0 +1,120 @@
+.logo span>h1{
+    position: relative;
+    color: #838489;
+    font-family: 'Kaushan Script', cursive;
+    /* -webkit-text-stroke: 0.3vw  #383d52 ;  */
+     /* text-transform: uppercase; */
+}
+span>h1:before{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    color: #d13e3e;
+    -webkit-text-stroke: 0vw #383d52;
+    border-right: 2px solid #d13e3e;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+
+}
+@keyframes animate
+{
+    0%,10%,100%
+    {
+        width: 0;
+    }
+    70%,90%
+    {
+        width:100%;
+    }
+}
+.logo span{
+    margin-bottom: 50px;
+}
+img{
+    width: 25%;
+    padding-bottom: 50px;
+}
+.logo{
+    display: flex;
+    margin-left:700px;
+    margin-top: 20px;
+}
+nav{
+    padding: 15px;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    background-attachment: fixed;
+    z-index:1;
+    background-color: white;
+    position: sticky;
+    width: 100%;
+    
+    /* box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px; */
+    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+    
+}
+.logo button{
+    width: 80px;
+    height: 30px;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    background-color: black;
+    color: white;
+}
+ .top>div>.nd{
+    width: 100%;
+   
+    margin-top: 50px;
+}
+ @import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Bungee+Spice&family=Kaushan+Script&family=Noticia+Text&family=Noto+Serif+NP+Hmong&display=swap'); 
+
+.top h1{
+    font-family: 'Bungee Spice', cursive;
+
+}
+.top h1,p,h5{
+    margin-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 350px;
+
+}
+.st{
+    width: 50%;
+    margin-left: 70px;
+    margin-top: 100px;
+}
+.pod{width: 90%;
+    margin: auto;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+   
+}
+.pod img{
+    width: 90%;
+}
+.pod div{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    text-align: center;
+    align-items: center;
+}
+.pod p{
+    margin-left:150px;
+}
+.p{
+    margin: 100px 0 80px 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
