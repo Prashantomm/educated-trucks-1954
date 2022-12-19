@@ -13,7 +13,7 @@ data=[];
         displayProduct(acctualData);
     })
     .catch((err)=>{
-        alert(err)
+        // alert(err)
 
     })
     function displayProduct(data){
