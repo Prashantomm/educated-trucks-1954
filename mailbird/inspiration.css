@@ -54,14 +54,16 @@ nav{
     width: 100%;
     
     /* box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px; */
-    box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     
 }
 .logo button{
     width: 80px;
     height: 30px;
     margin-top: 25px;
-    margin-left: 10px;
+    margin-left: 15px;
+    border-radius: 10px;
+    background-color: aliceblue;
 }
 .top{
     display: flex;
@@ -116,5 +118,112 @@ nav{
 .p{
     margin: 100px 0 80px 0;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.footer{
+    padding: 70px 0;
+    background-color: #f1eeea;
+    
+}
+.footer-col{
+    width: 18%;
+    padding: 0 15px;
+
+}
+.footer-col h4{
+    font-size: 18px;
+    color: rgb(14, 14, 14);
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+    margin-left: 40px;
+}
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50%;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: rgb(11, 10, 10);
+    text-decoration: none;
+    font-weight: 300;
+    color: rgba(23, 21, 21, 0.733);
+    display:block;
+    transition: 0.3s ease;
+
+
+}
+.footer-col ul li a:hover{
+    color: #100f0f;
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: egba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #191717;
+    transition: all 0.5s ease;
+
+
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color: #7a1b1b;
+    transform: scale(1.1);
+    z-index: 1;
+    transition: .9s;
+
+}
+.container{
+    max-width:100%;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    list-style: none;
+}
+.link{
+    width: 80%;
+    margin: auto;
+   
+}
+.link span{
+    margin-left: 40px;
+    
+}
+.link p{
+    margin-left: 80px;
+}
+.link span:hover{
+    background-color: yellow;
+}
+.link p{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.txt{
     font-family: Arial, Helvetica, sans-serif;
 }

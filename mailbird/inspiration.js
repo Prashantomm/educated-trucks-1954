@@ -1,4 +1,6 @@
 let container= document.querySelector("#container");
+data=[];
+// data=JSON.parse(data);
 
     fetch("https://www.omdbapi.com/?apiKey=290a8a8d&s=avengers")
     .then((res)=>{
@@ -7,6 +9,7 @@ let container= document.querySelector("#container");
     })
     .then((acctualData)=>{
         console.log(acctualData);
+        
         displayProduct(acctualData);
     })
     .catch((err)=>{
@@ -14,7 +17,9 @@ let container= document.querySelector("#container");
 
     })
     function displayProduct(data){
-        data.forEach(function(ele,i){
+        
+        
+        data.forEach((ele)=>{
             let div=document.createElement("div");
             let image=document.createElement("img");
             image.src=ele.Poster;
