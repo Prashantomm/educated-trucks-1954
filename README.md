@@ -4,4 +4,5 @@
  - User Login
  -  If new user they can register
  -  Home page
+ -  Pricing page
 
