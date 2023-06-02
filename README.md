@@ -2,4 +2,5 @@
 # MailChimp (clone)
  Feature:
  - User Login
+ - User can Register
 
