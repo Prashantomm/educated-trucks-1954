@@ -9,3 +9,5 @@ parties .
  -  Home page
  -  Pricing page
 
+Tech Stack: HTML | CSS | JavaScript
+
