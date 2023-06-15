@@ -12,3 +12,8 @@ parties .
 # Tech Stack: 
 HTML, CSS, JavaScript
 
+# Areas of responsibility :
+• Built the home page with Login Functionality
+• Built the pricing page
+A solo project completed in 5 days.
+
