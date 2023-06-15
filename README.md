@@ -3,7 +3,7 @@
 Marketing platform that helps you manage and
 talk to your clients, customers, and other interested
 parties .
- Feature:
+ Feature
  - User Login
  -  If new user they can register
  -  Home page
