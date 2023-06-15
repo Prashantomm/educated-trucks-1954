@@ -10,5 +10,5 @@ parties .
  -  Pricing page
 
 # Tech Stack: 
-HTML,CSS,JavaScript
+HTML, CSS, JavaScript
 
